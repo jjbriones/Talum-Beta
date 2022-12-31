@@ -215,7 +215,7 @@ function ProductScreen() {
         <h2 ref={reviewsRef}>Reviews</h2>
         <div className="mb-3">
           {product.reviews.length === 0 && (
-            <MessageBox>There is no review</MessageBox>
+            <MessageBox>There are no reviews</MessageBox>
           )}
         </div>
         <ListGroup>
@@ -244,7 +244,7 @@ function ProductScreen() {
                   <option value="2">2- Fair</option>
                   <option value="3">3- Good</option>
                   <option value="4">4- Very good</option>
-                  <option value="5">5- Excelent</option>
+                  <option value="5">5- Excellent</option>
                 </Form.Select>
               </Form.Group>
               <FloatingLabel
