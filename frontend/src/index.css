@@ -247,7 +247,7 @@ main {
 }
 
 .about {
-  background: url('../public/images/wallpaper4.jpg') no-repeat left;
+  background: url('../public/images/GAB.jpg') no-repeat left;
   background-size: 55%;
   overflow: hidden;
   padding: 50px;
@@ -256,7 +256,7 @@ main {
   width: 55%;
   float: right;
   background-color: #b4c9b4;
-  padding: 140px;
+  padding: 80px;
   box-shadow: 13px 12px 8px rgba(0, 0, 0, 0.3);
 }
 .inner-section h1 {
@@ -273,7 +273,7 @@ main {
 }
 
 .about1 {
-  background: url('../public/images/wallpaper4.jpg') no-repeat right;
+  background: url('../public/images/JARL.jpg') no-repeat right;
   background-size: 55%;
   overflow: hidden;
   padding: 100px 0;
@@ -282,7 +282,7 @@ main {
   width: 55%;
   float: left;
   background-color: #b4c9b4;
-  padding: 140px;
+  padding: 80px;
   box-shadow: 13px 12px 8px rgba(0, 0, 0, 0.3);
 }
 .inner-section1 h1 {
@@ -298,7 +298,7 @@ main {
   margin-bottom: 40px;
 }
 .about2 {
-  background: url('../public/images/wallpaper4.jpg') no-repeat left;
+  background: url('../public/images/yuj.jpg') no-repeat left;
   background-size: 55%;
   overflow: hidden;
   padding: 100px 0;
@@ -307,7 +307,7 @@ main {
   width: 55%;
   float: right;
   background-color: #b4c9b4;
-  padding: 140px;
+  padding: 80px;
   box-shadow: 13px 12px 8px rgba(0, 0, 0, 0.3);
 }
 .inner-section2 h1 {
@@ -316,6 +316,31 @@ main {
   font-weight: 900;
 }
 .text2 {
+  font-size: 13px;
+  color: #000;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+.about3 {
+  background: url('../public/images/KAYLA.jpg') no-repeat right;
+  background-size: 55%;
+  overflow: hidden;
+  padding: 100px 0;
+}
+.inner-section3 {
+  width: 55%;
+  float: left;
+  background-color: #b4c9b4;
+  padding: 80px;
+  box-shadow: 13px 12px 8px rgba(0, 0, 0, 0.3);
+}
+.inner-section3 h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
+.text3 {
   font-size: 13px;
   color: #000;
   line-height: 30px;
