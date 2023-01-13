@@ -8,8 +8,8 @@ function Greeting() {
         <div className="nav-links" id="navLinks"></div>
       </nav>
       <div className="textbox">
-        <h1>Welcome to Talum!</h1>
-        <p>The best Partner for Chefs</p>
+        <h1 className = "d1">REFINED INTENSITY</h1>
+        <p className = "d2">The Best Partner for Chefs</p>
         <a href="#featuredProducts" className="button">
           See all Talum Products
         </a>

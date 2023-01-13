@@ -71,7 +71,7 @@ main {
 .side-navbar {
   width: 240px;
   height: 100%;
-  position: absolute;
+  position: fixed;
   left: -300px;
   background-color: #100901;
   transition: 0.5s;
@@ -134,14 +134,14 @@ button.thumbnail {
 }
 
 .header {
-  min-height: 100vh;
+  min-height: 90vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0), rgba(4, 9, 30, 0)),
     url('../public/images/wallpaper4.jpg');
   background-position: center;
   background-size: cover;
   position: relative;
-  background-attachment: fixed;
+  background-attachment: absolute;
 }
 nav {
   display: flex;
@@ -167,23 +167,39 @@ nav img {
   color: #fff;
 }
 .textbox h1 {
-  font-size: 62px;
+  font-size: 85px;
   font-weight: 700;
-  color: rgb(19, 14, 68);
+  color: rgb(255, 255, 255);
+}
+
+.d1 {
+  text-align: center;
+}
+
+.d2 {
+  text-align: center;
+}
+
+.b1 {
+
+  
 }
 .textbox p {
-  margin: 10px 0 40px;
-  font-size: 16px;
-  color: rgb(19, 14, 68);
+  margin: 10px 0 30px;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
 }
 .button {
+ 
   display: inline-block;
   text-decoration: none;
-  color: rgb(19, 14, 68);
-  border: 1px solid rgb(19, 14, 68);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
   padding: 12px 34px;
   font-size: 13px;
   background: transparent;
+  margin-left: 44%;
+
   position: relative;
   cursor: pointer;
   font-weight: 300;
@@ -191,8 +207,8 @@ nav img {
 }
 
 .button:hover {
-  border: 1px solid rgb(19, 14, 68);
-  background: rgb(19, 14, 68);
+  border: 1px solid rgb(52, 109, 214);
+  background: rgb(52, 109, 214);
   transition: 0.5s;
   color: #fff;
 }
@@ -346,4 +362,17 @@ main {
   line-height: 30px;
   text-align: justify;
   margin-bottom: 40px;
+}
+
+.foot {
+  background-color: #282c34;
+  height: 100px;
+  color: rgb(253, 253, 253);
+  
+}
+
+.featuredProducts {
+
+text-align: center;
+margin-bottom: 2vh;
 }

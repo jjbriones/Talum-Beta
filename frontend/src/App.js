@@ -274,8 +274,8 @@ function App() {
             </Routes>
           </Container>
         </main>
-        <footer>
-          <div className="text-center">All rights reserved</div>
+        <footer className= "foot">
+          <div className="text-center mt-4">All rights reserved</div>
           <div className="text-center">
             {' '}
             Copyright &copy; 2022. Designed by Talum
