@@ -60,7 +60,7 @@ export default function SignupScreen() {
           <Form.Control onChange={(e) => setName(e.target.value)} required />
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="email">
+        <Form.Group className="mb-2" controlId="email">
           <Form.Label>Email</Form.Label>
           <Form.Control
             type="email"
@@ -68,14 +68,14 @@ export default function SignupScreen() {
             onChange={(e) => setEmail(e.target.value)}
           />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="password">
+        <Form.Group className="mb-2" controlId="password">
           <Form.Label>Password</Form.Label>
           <Form.Control
             type="password"
             required
             onChange={(e) => setPassword(e.target.value)}
           />
-          <Form.Group className="mb-3" controlId="confirmPassword">
+          <Form.Group className="mb-2" controlId="confirmPassword">
             <Form.Label>Confirm Password</Form.Label>
             <Form.Control
               type="password"
@@ -84,12 +84,14 @@ export default function SignupScreen() {
             />
           </Form.Group>
         </Form.Group>
-        <div className="mb-3">
-          <Button type="submit" className="button">
-            Sign Up
-          </Button>
+        <div className = "positioning3">
+          <div className="mb-3">
+            <Button type="submit" className="button">
+              Sign Up
+            </Button>
+          </div>
         </div>
-        <div className="mb-3">
+        <div className="cAccount">
           Already have an account?{' '}
           <Link to={`/signin?redirect=${redirect}`}>Sign-In</Link>
         </div>

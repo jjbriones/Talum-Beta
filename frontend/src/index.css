@@ -111,6 +111,10 @@ main {
   margin-top: 0 !important;
 }
 
+.cAccount {
+  margin-top: -37px;
+}
+
 .map-input-box {
   box-sizing: border-box;
   position: absolute;
@@ -193,17 +197,16 @@ nav img {
  
   display: inline-block;
   text-decoration: none;
-  color: rgb(255, 255, 255);
-  border: 1px solid rgb(255, 255, 255);
-  padding: 12px 34px;
+  color: rgb(52, 109, 214);
+  border: 1px solid rgb(52, 109, 214);
+  padding: 8px 30px;
   font-size: 13px;
   background: transparent;
-  margin-left: 44%;
 
   position: relative;
   cursor: pointer;
   font-weight: 300;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .button:hover {
@@ -213,9 +216,23 @@ nav img {
   color: #fff;
 }
 
+.positioning1 {
+  margin-left: 44%;
+}
+
+.positioning2 {
+
+  margin-left: 82%;
+}
+
+.positioning3 {
+
+  margin-left: 81%;
+}
+
 form {
   margin: 30px 0;
-  text-align: center;
+  
 }
 input[type='search'] {
   border: 1px solid #ccc;
